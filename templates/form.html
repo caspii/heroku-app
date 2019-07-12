@@ -3,7 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Hello World</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 10px;
+      }
+      input[type=text] {
+          padding:5px;
+          border:2px solid #ccc;
+          border-radius: 5px;
+      }
+      input[type=text]:focus {
+          border-color:#333;
+      }
+      input[type=submit] {
+          padding:5px 15px;
+          background:#ccc;
+          border:0 none;
+          cursor:pointer;
+          border-radius: 5px;
+      }
+
+    </style>
   </head>
+
   <body>
     <h1> My Form: {{name}}</h1>
 
